@@ -1,10 +1,10 @@
-import { AppProvider } from "@shopify/polaris";
+import { PolarisProvider } from "@/components/PolarisProvider";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <AppProvider>{children}</AppProvider>
+        <PolarisProvider>{children}</PolarisProvider>
       </body>
     </html>
   );
