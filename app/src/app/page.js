@@ -2,7 +2,7 @@
 
 import { Page, Card, Text } from "@shopify/polaris";
 
-export default function Main() {
+export default function Home() {
   const headline = "Emerson's Fulfilment semi-automated app!";
 
   return (
